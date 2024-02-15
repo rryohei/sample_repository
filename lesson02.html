@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./base.css">
+	<title>lesson02</title>
+	<style>
+		.a {
+			margin: 0 auto;
+			width: 550px;
+			height: 550px;
+			border: 2px solid;
+			border-color: black;
+			position: relative;
+		}
+		.red {
+			width: 180px;
+			height: 80px;
+			background-color: red;
+			position: absolute;
+			left: 250px;
+			z-index: 1;
+		}
+		.blue {
+			width: 180px;
+			height: 80px;
+			background-color: blue;
+			position: absolute;
+			left:0 auto;
+			top: 40%;
+			z-index: 2;
+		}
+	</style>
+</head>
+<body>
+	<div class="a">
+		<div class="red"></div>
+		<div class="blue"></div>
+	</div>
+</body>
+</html>
